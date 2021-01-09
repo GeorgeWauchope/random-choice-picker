@@ -18,6 +18,5 @@ function createTags(input) {
   tags.forEach((tag) => {
     const tagEl = document.createElement('span');
     tagEl.classList.add('tag');
-    
   });
 }
